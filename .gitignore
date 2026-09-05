@@ -1,0 +1,37 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# Large input data — uploaded manually via the GitHub web interface
+data/
+
+# Session / environment
+sessionInfo.txt
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/sandbox/
+renv/staging/
+.rsconnect/
+
+# Compiled / cache
+*.o
+*.so
+*.dll
+*.tar.gz
+*.tgz
+.Rcheck/
+
+# Claude Code local state
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
