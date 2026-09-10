@@ -589,35 +589,6 @@ The external datasets are used to evaluate signatures across available pathologi
 
 ---
 
-# 15. Main and supplementary figures
-
-All manuscript figures should be generated from the analysis outputs rather than manually edited numerical values.
-
-The repository should contain scripts or functions corresponding to:
-
-```text
-Figure 1
-Figure 2
-Figure 3
-Supplementary figures
-Supplementary tables
-```
-
-At minimum, the figure-generation workflow should reproduce:
-
-- study workflow/sample accounting
-- consensus clustering
-- subtype characterization
-- differential-expression results
-- pathway analyses
-- xCell results
-- ssGSEA comparisons
-- seven-gene feature-selection diagram
-- external signature evaluation
-- subtype stability/sensitivity analyses
-
----
-
 # 16. Reproducibility and computational environment
 
 The primary computational environment used for the analysis was:
@@ -626,7 +597,6 @@ The primary computational environment used for the analysis was:
 R version: 4.5.0 (2025-04-11)
 Platform: x86_64-w64-mingw32/x64
 Operating system: Windows 11 x64
-Time zone: Asia/Shanghai
 ```
 
 ### 16.1 Package versions directly verified from the analysis session
